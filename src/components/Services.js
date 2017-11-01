@@ -1,0 +1,21 @@
+import React, { Component } from 'react';
+import '../App.css'
+
+
+
+
+export default class Home extends Component {
+  render(){
+    return(
+      <div className='Kendall'>
+      <h1> What kendall can do for you </h1>
+
+
+
+
+
+
+      </div>
+    )
+  }
+}

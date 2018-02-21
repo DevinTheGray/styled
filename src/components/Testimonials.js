@@ -8,7 +8,7 @@ export default class Home extends Component {
   render(){
     return(
       <div className='Kendall'>
-      <h1> How greate Kendall is</h1>
+      <h1> How great Kendall is</h1>
 
 
 

@@ -13,9 +13,9 @@ export default class Home extends Component {
     return(
       <div className='Nav-Bar'>
         <div className='logo'>
-          <img className='house' src={require('../assets/Kendall-standin.png')} />
+          <img className='house' src={require('../assets/house.png')} />
           <h1 className='styled'>STYLED</h1>
-          <h3 className='description'>Custom Home Decorating</h3>
+          <h3 className='description'>CUSTOM HOME DECORATING</h3>
         </div>
 
 

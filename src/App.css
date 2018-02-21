@@ -1,23 +1,32 @@
+* {
+  font-family: Merriweather;
+}
 .leggo {
   text-decoration: none;
-  color: rgb(230, 184, 0);
+  color: rgb(102, 102,102);
 }
 .leggo:hover {
-  color: rgb(102, 102,102);
+  color: rgb(247, 216, 42);
 }
 
 
 .Nav-Bar {
-  color: rgb(102, 102,102);
+  color: rgb(247, 216, 42);
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8vh;
+  padding: 8vh;
+  margin: 10vh;
+  background-color: rgb(255, 253, 242);
+}
+.house {
+  display: flex;
+  justify-content:  center;
 }
 .description {
   display: flex;
   justify-content: center;
-  color:rgb(230, 184, 0);
+  color:rgb(102, 102,102);
   margin-top: -25px;
 
 }

@@ -1,37 +1,62 @@
 * {
-  font-family: Merriweather;
+  font-family: 'Bellefair', serif;
 }
+
 .leggo {
   text-decoration: none;
   color: rgb(102, 102,102);
+
 }
 .leggo:hover {
   color: rgb(247, 216, 42);
 }
-
 
 .Nav-Bar {
   color: rgb(247, 216, 42);
   display:flex;
   flex-direction: column;
   align-items: center;
-  padding: 8vh;
+  margin-bottom: 15vh;
+  margin-top: 3vh;
+
+  /*padding: 8vh;
   margin: 10vh;
-  background-color: rgb(255, 253, 242);
+  background-color: rgb(255, 253, 242);*/
 }
-.house {
+.house{
   display: flex;
-  justify-content:  center;
+  justify-content: center;
+  margin-left: 9vh;
 }
 .description {
   display: flex;
   justify-content: center;
   color:rgb(102, 102,102);
   margin-top: -25px;
-
 }
 .styled {
   display:flex;
   justify-content: center;
-  margin-top: -7px;
+  margin-top: .5vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.make-em-look {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio {
+  border: dashed;
+  border-color: rgb(247, 216, 42);
+  height: 35vh;
+  width: 25vw;
+  margin: .3vw;
+}
+.all {
+  padding: 4vh;
+  margin: 7vh;
+  background-color: rgb(252, 251, 244);
 }

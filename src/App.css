@@ -20,9 +20,7 @@ font-family: 'Raleway', sans-serif;
   margin-bottom: 15vh;
   margin-top: 3vh;
 
-  /*padding: 8vh;
-  margin: 10vh;
-  background-color: rgb(255, 253, 242);*/
+
 }
 .house{
   display: flex;
@@ -105,6 +103,29 @@ font-family: 'Raleway', sans-serif;
 .berkus {
   display: flex;
   justify-content: flex-end;
+}
+
+.statement {
 
 
 }
+
+.intro {
+  display: flex;
+  justify-content: center;
+  padding-left: 10vw;
+  padding-right:10vw;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+/*.dunno{
+  display: flex;
+  align-content: center;
+}*/
+/*
+.box {
+
+  height: 70vh;
+  width: 100vw;
+}*/

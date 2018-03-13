@@ -35,7 +35,7 @@ export default class Home extends Component {
 
 
 
-
+<div className='box'>
         <div className='about-kendall'>
 
 <p className="work"> Kendall has been a nester since her very first space to call her own - her college dorm room.
@@ -48,7 +48,7 @@ she evolved into adulthood the mix of inherited items, travel treasures, splurge
 
 have been a part of her decorating passion. </p>
 
-<p className="work"> As a “stylist” compared to an interior decorator she tends to skip the design professionals-only showrooms
+<p className="work"> As a “stylist” compared to an interior decorator, she tends to skip the design professionals-only showrooms
 
 and does a lot of the hunting in your home, tag sales, flea markets, etsy, etc. With all that in hand she
 
@@ -64,6 +64,7 @@ She loves being part of the Stapleton community.  A wife of 20 years, and a moth
 </p>
 
       </div>
+    </div>
 
 
 

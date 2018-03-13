@@ -17,6 +17,10 @@ font-family: 'Raleway', sans-serif;
   flex-direction: column;
   align-items: center;
 }
+.house {
+  height: 17vh;
+  width: 9vw;
+}
 
 .Nav-Bar {
   color: rgb(247, 216, 42);

@@ -11,6 +11,7 @@ font-family: 'Raleway', sans-serif;
   color: rgb(247, 216, 42);
 }
 
+
 .Nav-Bar {
   color: rgb(247, 216, 42);
   display:flex;
@@ -64,19 +65,46 @@ font-family: 'Raleway', sans-serif;
   padding: 4vh;
   margin: 7vh;
   background-color: rgb(252, 251, 244);
-  border:solid;
-  border-color:black;
+
 }
 
 .about-kendall {
   color:rgb(64, 64, 64);
-}
-.info {
   display:flex;
   justify-content: center;
-  align-items: center;
-  align-content: center;
-  border: solid;
-  border-color: purple;
-  margin: 7vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  flex-wrap: wrap;
+  margin-top: -5vh;
+  margin-bottom: 5vh;
+
+
+}
+.work {
+
+  display: flex;
+  justify-content: center;
+}
+
+.quotes {
+  color: rgb(247, 216, 42);
+  font-size: 20px;
+}
+
+.coco {
+  display: flex;
+  justify-content: center;
+}
+
+.flett{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15vh;
+}
+
+.berkus {
+  display: flex;
+  justify-content: flex-end;
+
+
 }

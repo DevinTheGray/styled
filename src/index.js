@@ -15,7 +15,6 @@ import Header from './components/Header'
 import Home from './components/Home'
 import AboutKendall from './components/AboutKendall'
 import Contact from './components/Contact'
-import Portfolio from './components/Portfolio'
 import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 
@@ -32,7 +31,6 @@ ReactDOM.render(
     <Route exact path= '/' component={Home} />
     <Route path='/AboutKendall' component={AboutKendall} />
     <Route path='/Contact' component={Contact} />
-    <Route path='/Portfolio' component={Portfolio} />
     <Route path='/Services' component={Services} />
     <Route path='/Testimonials' component={Testimonials} />
 

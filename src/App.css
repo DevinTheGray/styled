@@ -10,7 +10,13 @@ font-family: 'Raleway', sans-serif;
 .leggo:hover {
   color: rgb(247, 216, 42);
 }
-
+.logo {
+  /*display: flex;
+  align-items: center;*/
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .Nav-Bar {
   color: rgb(247, 216, 42);
@@ -22,16 +28,15 @@ font-family: 'Raleway', sans-serif;
 
 
 }
-.house{
-  display: flex;
-  justify-content: center;
-  margin-left: 9vh;
-}
+
 .description {
   display: flex;
   justify-content: center;
   color:rgb(64, 64, 64);
-  margin-top: -25px;
+  margin-top: -14px;
+  font-weight: bold;
+
+
 }
 .styled {
   display:flex;
@@ -113,19 +118,20 @@ font-family: 'Raleway', sans-serif;
 .intro {
   display: flex;
   justify-content: center;
-  padding-left: 10vw;
+  /*padding-left: 10vw;
   padding-right:10vw;
   align-self: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
+  color: rgb(247, 216, 42);
 }
 
-/*.dunno{
-  display: flex;
-  align-content: center;
-}*/
-/*
-.box {
 
-  height: 70vh;
-  width: 100vw;
-}*/
+
+/*
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }*/

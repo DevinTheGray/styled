@@ -9,6 +9,7 @@ import {
 } from 'react-router-dom'
 
 
+
 export default class Home extends Component {
   render(){
     return(
@@ -17,8 +18,8 @@ export default class Home extends Component {
 
           <div className='logo'>
             <img className='house' src={require('../assets/house.png')} />
-            <h1 className='styled'>STYLED</h1>
-            <h3 className='description'>DECOR STYLIST/CURATOR</h3>
+            <h3 className='styled'>STYLED</h3>
+            <h6 className='description'>DECOR STYLIST/CURATOR</h6>
           </div>
 
           <div className='links'>
